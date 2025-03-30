@@ -1,0 +1,120 @@
+.hits__title {
+    font-size: 40px;
+}
+.hits__card {
+    margin-top:38px;
+}
+.hits__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.hits-card-list__element {
+    width: 360px;
+}
+.hits-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.hits-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__hits {
+    margin-top: 65px;
+}
+.new__title {
+    font-size: 40px;
+}
+.new__card {
+    margin-top:38px;
+}
+.new__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.new-card-list__element {
+    width: 360px;
+}
+.new-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.new-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__new {
+    margin-top: 67px;
+}
+.recommends__title {
+    font-size: 40px;
+}
+.recommends__card {
+    margin-top:38px;
+}
+.recommends__card__list {
+    padding: 0;
+    width: 1800px;
+    height: 367px;
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.recommends-card-list__element {
+    width: 360px;
+}
+.recommends-card-list__element--name {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.recommends-card-list__cart {
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+    border-width: 1px; 
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.section__recommends {
+    margin-top: 65px;
+}
