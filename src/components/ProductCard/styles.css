@@ -11,15 +11,6 @@
 .section__container {
     margin: 0 auto;
 }
-.suggest__card__list {
-    padding: 0;
-    height: 367px;
-    display: flex;
-    gap: 35px;
-    list-style-type: none;
-    justify-content: flex-start;
-
-}
 .suggest-card-list__element {
     width: 360px;
 }
@@ -46,6 +37,7 @@
 }
 .suggest__title {
     text-align: left;
+    color: #001A34;
     font-weight: 900;
     font-size: 40px;
 }
@@ -57,7 +49,7 @@
     width: 1800px;
     height: 367px;
     display: flex;
-    gap: 35px;
+    gap: 30px;
     list-style-type: none;
     justify-content: space-around;
 
@@ -76,10 +68,13 @@
     font-size: 16;
     font-weight: 700;
 }
-.cart__cost__old {
+.cart__cost--old {
     margin-left: 15px; 
     margin-top: 13px; 
     padding: 0;
+    text-decoration: line-through;
+    color: #5A6C7D;
+    font-weight: 500;
 }
 .cart_button__cost--link {
     display: inline-block; 
