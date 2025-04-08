@@ -52,6 +52,7 @@ const ProductCard = () => {
       {title: "Новинки", productList},
       {title: "Рекомендуем", productList},
     ]
+    
     return (
         <div className="section">
           <div className="section__container">
