@@ -1,0 +1,85 @@
+.header__top {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 80px;
+    width: 100%;
+    border-bottom: #0000001a;
+    border: 1px;
+  }
+  
+  .top__city {
+    display: flex;
+    margin-left: 23px;
+  
+    width: 190px;
+  
+  }
+  .city__location-name {
+    margin-left: 12px;
+  
+    color: rgb(0, 26, 52, 1);
+    font-family: 'Montserrat', sans-serif;
+  
+    font-size: 15px;
+    font-weight: 700;
+  
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .city__location-img {
+    margin-left: 5px;
+  }
+  
+  .city__location-description {
+    margin: 0;
+    width: 90px;
+  
+    font-family: 'Montserrat', sans-serif;
+  }
+  .top__navigation {
+    margin-left: 60px;
+  }
+  .nav__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  
+    width: 1030px;
+    font-size: 18px;
+  }
+  .nav-list__element {
+    margin-left:  40px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .nav-list__element_first {
+    margin-left: 5px  !important;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .top__connection {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+  }
+  .connection__number-img {
+    margin-right: 5px;
+  }
+  .connection__number {
+    width: 250px;
+  
+    font-family: 'RoadRadio', sans-serif;
+  
+    font-size: 18px;
+  }
+  .connection__application {
+    height: 50px;
+    width: 205px;
+  
+    cursor: pointer;
+    margin-right: 75px;
+  }
+  .connection__number-name {
+     text-decoration: none;
+  }

@@ -1,0 +1,88 @@
+.header__middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-grow: 1;
+    height: 90px;
+    width: 100%; 
+  }
+  .middle__logo {
+    display: flex;
+    align-items: center;
+  
+    margin-left: 10px;
+  }
+  .middle__logo-name {
+    width: 250px;
+  
+    margin-left: 15px;
+  
+    color: rgb(0, 26, 52, 1);
+    line-height: 22px;
+    font-weight: 500;
+    color: rgb(90, 108, 125, 1);
+  }
+  .middle__input {
+    margin-left: 40px;
+    width: 562px;
+    height: 47px;
+  
+    color: #5A6C7D;
+    font-size: 15px;
+    background-color: #EFF3F6;
+    border: 0px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4%;
+    outline: none;
+  }
+  .middle__access {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: flex;
+    margin-right: 20px;
+    
+  }
+  .access__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 130px;
+  }
+  .access__favourite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 130px;
+  }
+  .access__login-name {
+    text-decoration: none;
+  }
+  .access__favourite-name {
+    text-decoration: none;
+  }
+  .middle__recycle-bin {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .recycle-bin__description {
+    margin-left: 15px;
+  }
+
+  .description-name {
+    margin-right: 15px;
+
+    font-size: 14px;
+    color: rgb(90, 108, 125, 1);
+  }
+  .description-cost {
+    font-size: 26px;
+    color: rgb(0, 26, 52, 1);
+  }
+  

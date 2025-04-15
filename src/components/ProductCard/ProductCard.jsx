@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles.css';
-import caviar from './caviar.jpg';
-import cart from './cart.svg';
-import shrimps from './shrimps.jpg';
-import redfish from './redfish.jpg';
-import keta from './keta.jpg';
-import halibut from './halibut.jpg';
+import caviar from './images/caviar.jpg';
+import cart from './images/cart.svg';
+import shrimps from './images/shrimps.jpg';
+import redfish from './images/redfish.jpg';
+import keta from './images/keta.jpg';
+import halibut from './images/halibut.jpg';
 
 const ProductCard = () => {
     const productList = [
