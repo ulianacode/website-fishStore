@@ -29,10 +29,10 @@ const TopHeader = () => {
 };
 
 const NavigationTopHeader = () => {
-    const NavigationTitle = ["Доставка", "Оплата", "Рецепты", "Статьи", "Рейтинг на Яндекс Метрике", "Гарантия качества", "Контакты"];
+    const navigationTitle = ["Доставка", "Оплата", "Рецепты", "Статьи", "Рейтинг на Яндекс Метрике", "Гарантия качества", "Контакты"];
     return (
         <ul className="nav__list nav-list">
-        {NavigationTitle.map((title) => (
+        {navigationTitle.map((title) => (
               <li className="nav-list__element_first">
               <a href="#" className="nav-list__element-link">
                   {title}

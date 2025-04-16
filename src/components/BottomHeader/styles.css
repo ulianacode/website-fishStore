@@ -33,3 +33,31 @@
   .bottom-nav-list__element--img {
     padding-right: 10px;
   }
+  .bottom__application {
+    width: 151px;
+    height: 46px;
+  
+  
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(241, 94, 34, 1);
+    border-width: 0px;
+    border-radius: 4px;
+  
+    margin-left: 20px;
+  }
+  .application__title {
+    display: flex; 
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .header__bottom  {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 63px;
+    width: 100%;
+  }
+  .bottom-nav {
+    font-size: 16px;
+    
+  }

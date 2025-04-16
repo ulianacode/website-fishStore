@@ -83,3 +83,19 @@
   .connection__number-name {
      text-decoration: none;
   }
+  .city__location-description {
+    color: rgb(90, 108, 125, 1);
+    font-size: 15px;
+  }
+  .connection__number-name {
+    color: rgb(0, 26, 52, 1);
+    font-weight: 900;
+  }
+  .connection__application {
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(241, 94, 34, 1);
+    border-width: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 900;
+  }
