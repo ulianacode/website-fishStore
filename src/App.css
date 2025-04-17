@@ -1,14 +1,14 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
 }
+
 .header {
   width: 100%;
 }
 .header__container {
-  width: 1860px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

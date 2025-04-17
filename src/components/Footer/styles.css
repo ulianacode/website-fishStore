@@ -1,17 +1,17 @@
+
 .footer {
-    width: 100%;
+    width: 100vw; 
     margin-top: 53px;
     background-color: rgba(0, 26, 52, 1);
+    overflow: hidden;
 }
 .footer__container {
-    width: 1860px;
+    width: 100%;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
-
 }
-
 .footer__main {
     padding-top: 60px;
 
@@ -231,7 +231,7 @@
     color: #FFFFFF;
 }
 .main__useful-information {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .useful-information__navigation {
     display: flex;
@@ -348,6 +348,8 @@
     width: 43px;
     height: 43px;
 
+    margin-right: 20px;
+
     border-radius: 4px;
     border: 1px solid #D6DADE;
     align-items: center;
@@ -361,7 +363,6 @@
 .additives__navigation {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
     width: 100%;
 }
 .additives-nav__list {

@@ -8,7 +8,6 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <>
-      <div>
       <header className="header">
         <div className="header__container">
           <TopHeader/>
@@ -21,7 +20,6 @@ function App() {
       </header>
         <ProductCard></ProductCard>
         <Footer/>
-        </div>
     </>
   )
 }

@@ -7,6 +7,11 @@ import kiwi from './images/kiwi.png';
 import mail from './images/mail.png';
 import robokassa from './images/robokassa.png';
 import visa from './images/visa.png';
+import vk from './images/vk.png';
+import ok from './images/ok.png';
+import facebook from './images/facebook.png';
+import ln from './images/ln.png';
+
 
 const Footer = () => {
     return(
@@ -66,26 +71,7 @@ const Footer = () => {
               <p className="social-media__title">Мы с соц. сетях</p>
               <nav className="social-media__navigation social-media-nav">
                 <ul className="social-media-nav__list social-media-nav-list">
-                  <li className="social-media-nav-list__element-first">
-                    <a href="#" className="social-media-nav-list__element-link">
-                      <img width="15" height="15" className="social-media-nav_logo-img" src="./image/facebook.svg"/>
-                    </a>
-                  </li>
-                  <li className="social-media-nav-list__element">
-                    <a href="#" className="social-media-nav-list__element-link">
-                      <img width="15" height="9" className="social-media-nav_logo-img" src="./image/vk.svg"/>
-                    </a>
-                  </li>
-                  <li className="social-media-nav-list__element">
-                    <a href="#" className="social-media-nav-list__element-link">
-                      <img width="8" height="13" className="social-media-nav_logo-img" src="./image/odnocklassniki.svg"/>
-                    </a>
-                  </li>
-                  <li className="social-media-nav-list__element">
-                    <a href="#" className="social-media-nav-list__element-link">
-                      <img width="13" height="13" className="company_logo-img" src="./image/in.svg"/>
-                    </a>
-                  </li>
+                  <SocialMedia/>
                 </ul>
               </nav>
             </div>
@@ -163,8 +149,24 @@ const ForPay = () => {
       <ul className="pay-nav__list pay-nav-list">
       {payImages.map((imgs) => (
           <li className="pay-nav-list__element">
-          <a href="#" className="pay-nav-list__element-link">
-            <img width="23" height="23" className="pay-nav_logo-img" src={imgs}/>
+            <a href="#" className="pay-nav-list__element-link">
+              <img className="pay-nav_logo-img" src={imgs}/>
+            </a>
+        </li>
+      )
+      )}
+    </ul>
+  )
+}
+
+const SocialMedia = () => {
+  const mediaImages = [facebook, vk, ok, ln];
+  return (
+      <ul className="pay-nav__list pay-nav-list">
+      {mediaImages.map((imgs) => (
+           <li className="social-media-nav-list__element-first">
+          <a href="#" className="social-media-nav-list__element-link">
+            <img width="13" height="13" className="social-media-nav_logo-img" src={imgs}/>
           </a>
         </li>
       )
@@ -172,4 +174,5 @@ const ForPay = () => {
     </ul>
   )
 }
+
 export default Footer;
